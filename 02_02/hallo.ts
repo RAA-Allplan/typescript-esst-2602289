@@ -1,3 +1,3 @@
 const meineVariable = "hello";
 
-console.log(meineVariable);
+console.log(meineVariable); // Fixed typo from 'lag' to 'log'
