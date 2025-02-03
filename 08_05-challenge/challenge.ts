@@ -1,8 +1,8 @@
-const myFunction = (objectWithName: any) => {
+function myFunction<T extends object>(objectWithName: T): T {
   return {
     ...objectWithName,
   };
-};
+}
 
 export function Challenge() {
   const object = myFunction({
